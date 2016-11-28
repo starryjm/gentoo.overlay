@@ -22,7 +22,7 @@ DEPEND="java? ( >=virtual/jdk-1.4 )
 	sys-devel/bison
 	sys-devel/flex"
 
-PATCHES=( "${FILESDIR}/mDNSResponder-107.6-java.patch" )
+#PATCHES=( "${FILESDIR}/mDNSResponder-107.6-java.patch" )
 
 pkg_setup() {
 	if use elibc_FreeBSD; then
